@@ -14,6 +14,13 @@ main()
         cin>>nt;
         cout<<"Inserisci reddito cliente "<<i<<": ";
         cin>>rd;
+        if(i=1)
+        {
+           ma=rd;
+           na=nt;
+           mb=rd;
+           nb=nt;
+        } 
         if(rd>ma)
         {
             ma=rd;
