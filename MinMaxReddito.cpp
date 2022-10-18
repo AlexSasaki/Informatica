@@ -26,7 +26,7 @@ main()
             ma=rd;
             na=nt;
         }
-        else
+        if(rd<mb)
         {
             mb=rd;
             nb=nt;
