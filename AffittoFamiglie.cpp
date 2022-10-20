@@ -7,8 +7,10 @@ main()
 	int np=0,ncf=0,pa=0,mq=0,af=0,i=1,ntf=0,sta=0,tft=0,tat=0,mat=0;
 	string nf="";
 	bool ftp=false;
+	
 	cout<<"Inserisci numero famiglie: ";
 	cin>>ntf;
+	
 	while(i<=ntf)
 	{
 		//Input
@@ -25,12 +27,6 @@ main()
 		cin>>mq;
 		cout<<"Inserisci piano abitato: ";
 		cin>>pa;
-		//Error
-		while(pa<=0)
-		{
-			cout<<"Inserisci un piano valido: ";
-			cin>>pa;
-		}
 		//Calcoli
 		af=((10*pa)+(5*mq)+50);
 		if(ncf>3)
